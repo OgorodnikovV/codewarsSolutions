@@ -69,9 +69,34 @@ function calcType(a, b, res) {
    }
  }
  ```
+ ###
+ (https://www.codewars.com/kata/numerical-palindrome-number-1/train/javascript)
+ #Task
+ ###
  
+ A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward as forward. Examples of numerical palindromes are:
  
+ 2332 
+ 110011 
+ 54322345
  
+ For a given number num, write a function to test if it's a numerical palindrome or not and return a boolean (true if it is and false if not). Return "Not valid" if the input is not an integer or less than 0.
+ ###
+ Solution
+ ```javaskript
+ function palindrome(num) { 
+  let str = "";
+    if (typeof num !== 'number' || num < 0){
+    return  'Not valid';
+    }
+    str = num + '';
+  
+   for (let i = 0; i < Math.floor(str.length / 2); i++){
+   if (str[i] !== str[str.length -i -1]) {
+   return false;
+   }
+   }
+   ```
  
  
  
