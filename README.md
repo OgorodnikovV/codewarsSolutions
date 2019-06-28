@@ -1,5 +1,6 @@
 # hello
 ###
+(https://www.codewars.com/kata/find-the-calculation-type/train/javascript)
 You have to create a function which receives 3 arguments: 2 numbers, and the result of an unknown operation performed on them (also a number).
 
 Based on those 3 values you have to return a string, that describes which operation was used to get the given result.
