@@ -6,6 +6,7 @@ Based on those 3 values you have to return a string, that describes which operat
 
 The possible return strings are: "addition", "subtraction", "multiplication", "division".
 
+```javascript
 function calcType(a, b, res) {
   if( a + b === res){
   return 'addition';
@@ -20,4 +21,4 @@ function calcType(a, b, res) {
   return 'division';
   }
 }
-
+```
