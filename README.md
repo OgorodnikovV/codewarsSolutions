@@ -50,6 +50,7 @@ function calcType(a, b, res) {
  
  (https://www.codewars.com/kata/reverse-a-number/train/javascript)
  ###
+ 
  Task
  Given a number, write a function to output its reverse digits. (e.g. given 123 the answer is 321)
  
