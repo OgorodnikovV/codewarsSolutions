@@ -152,6 +152,16 @@ function calcType(a, b, res) {
      return 0;
  }
  ```
- 
- 
- 
+ ###
+ (https://www.codewars.com/kata/remove-string-spaces/train/javascript)
+ ###
+ #Task
+ Simple, remove the spaces from the string, then return the resultant string.
+ #
+ Solution
+ ```Javaskript
+ function noSpace(x){
+ let str = x.replace (/ /g, '');
+ return str;
+ }
+ ```
