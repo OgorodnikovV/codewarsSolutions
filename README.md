@@ -165,3 +165,25 @@ function calcType(a, b, res) {
  return str;
  }
  ```
+ 
+ ###
+ (https://www.codewars.com/kata/switch-it-up/train/javascript)
+ #
+ Task
+ When provided with a number between 0-9, return it in words.
+ 
+ Input :: 1
+ 
+ Output :: "One".
+ 
+ Try using "Switch" statements.
+ ###
+ Solution
+ ```Javaskript
+ function switchItUp(number){
+ let arr = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',];
+ return arr[number];
+ }
+ ```
+ 
+ 
