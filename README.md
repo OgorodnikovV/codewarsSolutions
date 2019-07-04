@@ -178,7 +178,7 @@ function calcType(a, b, res) {
  
  Try using "Switch" statements.
  ###
- Solution11
+ Solution111
  ```Javaskript
  function switchItUp(number){
  let arr = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',];
